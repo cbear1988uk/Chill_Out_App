@@ -1,0 +1,336 @@
+* {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* homePage */
+
+h1 {
+  font-size: 35px;
+  margin-top: 30px;
+  padding: 10px;
+  font-family: 'Varela Round', sans-serif;
+  width: auto;
+  height: auto;
+}
+
+.smiley1 {
+  animation-duration: 5s;
+  width: auto;
+  height: auto;
+}
+
+.smiley2 {
+  animation-duration: 5s;
+  width: auto;
+  height: auto;
+}
+
+.slider {
+  background-image: linear-gradient(#b5f4fc, #e8fcff);
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  height: auto;
+}
+
+ .button {
+   font-family: 'Varela Round', sans-serif;
+ }
+
+ /* map */
+
+#map {
+  padding-left: 48px;
+}
+
+.mapboxgl-canvas {
+  border: solid black 1px;
+}
+
+/* MoodSelected */
+
+.mood-selected {
+  padding: 10px;
+}
+
+.quote-text {
+  font-style: italic;
+  padding: 5px;
+  padding-bottom: 0px;
+  animation-duration: 3s;
+  font-weight: lighter;
+}
+
+.quote-author {
+  font-weight: 400;
+  padding-top: 0px;
+  animation-duration: 3s;
+}
+
+.yoga-image {
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+
+.video-wrapper {
+  position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.inspire-video {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* VideoPlayer */
+
+.you-tube {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* commentForm */
+
+.comment-form {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #cecccc;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.end-mood {
+  width: auto;
+  border-radius: 5px;
+  border-style: solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #cecccc;
+  font-size: 12px;
+}
+
+.submit-button {
+  border-radius: 5px;
+  font-size: 12px;
+  width: auto;
+}
+
+/* kitten button */
+
+.kittens {
+  width: 100%;
+  height: auto;
+}
+
+/* modalBoxes */
+
+.ReactModal__Overlay {
+  height: 600px;
+}
+
+.ReactModal__Content {
+  width: auto;
+  height: auto;
+}
+
+#customRange1 {
+  width: 300px;
+}
+
+
+/* mediaQueries */
+@media only screen
+and (min-width: 150px)
+and (max-width: 1199px) {
+
+  .slider{
+    text-align: center;
+    margin: 10px;
+    width: auto;
+  }
+}
+
+/* phones */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+
+  .App {
+    text-align: left;
+    padding: 10px;
+    height: 175px;
+    padding-top: 75px;
+  }
+
+  .slider {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+  }
+
+  .custom-range {
+    size: 100px;
+  }
+
+  #navBar {
+    width: 90%;
+    padding: 10px;
+    left: 0;
+  }
+
+  #button-container {
+    margin-left: 35px;
+    margin-top: 35px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-style: linear-gradient(#b5f4fc, #d1d1d1);
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .ReactModal__Overlay {
+    height: 250px;
+    background-color: black;
+    margin-top: 80px;
+  }
+
+  .ReactModal__Content button {
+    font-size: 20px;
+    border: solid black 1px;
+    background-color: white;
+  }
+
+  .close-modal-window {
+    font-size: 30px;
+    background-color: white;
+  }
+
+  .DayPicker-Month {
+    margin-left: 50px;
+  }
+
+  #customRange1
+  {
+    -webkit-appearance: none !important;
+    width: 250px;
+    height: 10px;
+    cursor: pointer;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #d8d8d8;
+  }
+
+  .mapboxgl-canvas {
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  #map {
+    padding: 0;
+    padding-left: 40px;
+  }
+
+}
+
+/* ipads */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+  .App {
+    height: 175px;
+  }
+
+  .slider {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 600px;
+  }
+
+  .ReactModal__Overlay {
+    height: 200px;
+    background-color: black;
+    margin-top: 80px;
+  }
+
+  .ReactModal__Content button {
+    font-size: 20px;
+    border: solid black 1px;
+    background-color: white;
+  }
+
+  .close-modal-window {
+    font-size: 30px;
+  }
+
+  .ReactModal__Overlay #kittens {
+    height: 400px;
+  }
+
+  #kittens {
+    width: auto;
+  }
+
+  #customRange1
+  {
+    -webkit-appearance: none !important;
+    width: 300px;
+    height: 10px;
+    cursor: pointer;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #d8d8d8;
+  }
+
+  #navBar {
+    width: 90%;
+    padding: 10px;
+    left: 0;
+    margin-top: 30px;
+  }
+
+  .button {
+    padding: inherit;
+    width: auto;
+    height: auto;
+  }
+
+  #button-container {
+    margin-top: 80px;
+  }
+
+  .mapboxgl-canvas {
+    width: 100%;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+
+  #map {
+    padding: 0;
+    padding-left: 40px;
+  }
+
+}

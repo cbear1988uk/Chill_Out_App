@@ -1,0 +1,39 @@
+#navBar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: auto;
+  z-index: 2;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  border-radius: 10px;
+  background-image: linear-gradient(#b97fe0, #e8fcff);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-family: 'Varela Round', sans-serif;
+}
+
+a:hover {
+  font-weight: bold;
+}

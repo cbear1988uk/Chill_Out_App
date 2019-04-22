@@ -1,0 +1,13 @@
+.mapbox-map {
+  padding: 0;
+}
+
+#map {
+  padding: 0;
+}
+
+canvas {
+  position: relative !important;
+  height: 100% !important;
+  width: 100% !important;
+}
